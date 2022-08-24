@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 18px;
+    font-family: 'Outfit';
+    padding-top: 2%;
+}
+
+.ether-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+p, h3, .card-flex {
+    margin-left: 20px;
+}
+
+.card {
+    width: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    border-color: hsl(215, 32%, 27%);
+    border-width: 5px;
+    box-shadow: 2 2px hsl(215, 32%, 27%);
+}
+
+.card-body {
+    width: 100%;
+    text-align: left;
+    color:hsl(0, 0%, 100%);
+}
+
+.card-image {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.card-title, .card-text {
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.card-text {
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+
+.card-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid hsl(215, 51%, 70%);
+    color: hsl(215, 51%, 70%);
+}
+
+.card-price {
+    color: hsl(178, 100%, 50%);
+}
+
+svg {
+    margin-right: 5px;
+}
+
+.card-date svg {
+    padding-top: 2.2px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border-color: hsl(0, 0%, 100%);
+    border-width: 3px;
+    border-style: solid;
+}
+
+.card-footer {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    align-items: center;
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+}
+
+span {
+    color: hsl(0, 0%, 100%);
+}
